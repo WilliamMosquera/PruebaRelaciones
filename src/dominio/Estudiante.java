@@ -4,11 +4,13 @@ public class Estudiante {
     private String nombre;
     private int promedio;
     private String ID;
+    private Materia materia;
 
-    public Estudiante(String nombre, int promedio, String ID) {
+    public Estudiante(String nombre, int promedio, String ID, Materia materia) {
         this.nombre = nombre;
         this.promedio = promedio;
         this.ID = ID;
+        this.materia = materia;
     }
 
     public String getNombre() {
@@ -34,6 +36,13 @@ public class Estudiante {
     public void setID(String ID) {
         this.ID = ID;
     }
-    
+
+    public Materia getMateria() {
+        return materia;
+    }
+
+    public void setMateria(Materia materia) {
+        this.materia = materia;
+    }
     
 }
