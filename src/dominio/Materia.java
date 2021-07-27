@@ -3,8 +3,8 @@ package dominio;
 public class Materia {
     private String nombre;
     private String numerocreditos;
-    private Profesor profesor;
     private String horario;
+    private Profesor profesor;
 
     public Materia(String nombre, String numerocreditos, Profesor profesor, String horario) {
         this.nombre = nombre;
